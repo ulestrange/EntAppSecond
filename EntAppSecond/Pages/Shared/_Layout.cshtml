@@ -9,15 +9,19 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 
+   
 
 </head>
 <body>
+ 
 
     <div class="container body-content">
         @RenderBody()
+
+        <h3> Comming from the main Layout page.</h3>
         <hr />
         <footer>
-            <p>&copy; 2019 - Una's Great Site</p>
+            <p>&copy; @DateTime.Now.ToShortDateString() - Una's Great Site</p>
         </footer>
     </div>
 
