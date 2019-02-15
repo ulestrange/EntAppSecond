@@ -12,8 +12,20 @@ body {
     padding-right: 15px;
 }
 
-.row div
+/*.row div
 {
     background-color:lightblue;
     border: solid;
+}*/
+
+.field-validation-error
+{
+    color:red;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.validation-summary-errors
+{
+    border: solid red;
 }
